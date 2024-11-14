@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Signup Form Card -->
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+        <div class="go-back">
+            
+        </div>
+        <!-- Display Data Card -->
+        <div class="data-container" id="dataCard" style="display: none;">
+            <h2>Form Data</h2>
+            <div id="formData">
+                <!-- Form data will appear here -->
+            </div>
+        </div>
+        <a href="../index.html">Go Back</a>
+    </div>
+    
+    <script src="signup.js"></script>
+</body>
+
+</html>

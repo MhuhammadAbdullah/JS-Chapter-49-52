@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="readmore.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Read More & Read Less Button</h1>
+        <div class="content-box">
+            <h2>Item Title</h2>
+            <p>
+                This is a brief description of the item. It gives a quick overview of the item's main features and benefits. 
+                <span id="dots">...</span>
+                <span id="more" class="hidden-content">
+                    Here is the full detail of the item. It includes all the specifications, features, and benefits in detail. 
+                    You can find information about the item's dimensions, weight, materials used, and other important details. 
+                    This section provides a comprehensive understanding of what the item offers and why it is valuable.
+                </span>
+            </p>
+            <button onclick="toggleReadMore()" id="readMoreBtn">Read More</button>
+        </div>
+        <a href="../index.html">Go Back</a>
+    </div>
+    <script src="readmore.js"></script>
+</body>
+</html>
